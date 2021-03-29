@@ -17,6 +17,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 .board {
@@ -34,4 +40,7 @@
   margin-bottom: 0.3rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
